@@ -18,7 +18,17 @@ Analyzed 541K+ retail transactions to extract business insights on customers, pr
 
 ### 1. Top 10 VIP Customers
 Identified highest-spending customers for loyalty campaigns.
-![VIP Customers](shot1.png)
+
+```sql
+SELECT 
+    CustomerID, 
+    ROUND(SUM(TotalPrice), 2) AS totalspent,
+    COUNT(DISTINCT InvoiceNo) AS TotalOrders
+FROM orders
+WHERE CustomerID IS NOT NULL
+GROUP BY CustomerID
+ORDER BY totalspent DESC
+LIMIT 10;
 
 ### 2. Best Selling Products  
 Found top products by units sold to optimize inventory.
