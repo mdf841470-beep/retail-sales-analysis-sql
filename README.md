@@ -1,8 +1,15 @@
 # Online Retail Sales Analysis using SQL
 
 ## Project Goal
-Analyzed 540K+ retail transactions to extract business insights on customers, products, and revenue trends using SQLite.
+Analyzed 541K+ retail transactions to extract business insights on customers, products, and revenue trends using SQLite.
 
+## Dataset
+- **Source**: Online Retail Dataset from UCI Machine Learning Repository
+- **Link**: https://archive.ics.uci.edu/ml/datasets/Online+Retail
+- **Period**: Dec 2010 - Dec 2011 UK e-commerce transactions
+- **Scale**: 541,909 rows * 8 columns
+- **Note**: Raw data not included in repo due to size. Analysis performed on full dataset. SQL output files in root folder show results.
+- 
 ## Tools Used
 - SQLite / DB Browser for SQLite
 - SQL: GROUP BY, JOIN, SUBSTR, Aggregations
