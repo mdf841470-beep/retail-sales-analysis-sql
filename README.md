@@ -108,19 +108,6 @@ The dashboard includes:
 
 ---
 
-## 🚀 How to Use
-
-1. Clone the repository.
-
-```bash
-git clone https://github.com/your-username/retail-sales-analysis-sql.git
-```
-
-2. Open the `.pbix` file in Power BI Desktop.
-
-3. Explore the dashboard and insights.
-
----
 
 ## 📚 Skills Demonstrated
 
