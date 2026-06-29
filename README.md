@@ -68,18 +68,6 @@ The dashboard includes:
 
 ---
 
-## 📁 Output Files
-
-| File | Description |
-|------|-------------|
-| 1_vip_customers.csv | VIP customer analysis |
-| 2_best_products.csv | Top-selling products |
-| 3_country_revenue.csv | Country-wise revenue |
-| 4_monthly_trends.csv | Monthly sales trends |
-| powerbi_sales_dashboard.pbix | Power BI dashboard |
-
----
-
 ## 🔍 Key Insights
 
 - Identified the highest-value customers (VIPs).
